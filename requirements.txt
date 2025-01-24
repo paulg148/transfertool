@@ -1,1 +1,7 @@
 streamlit
+pandas
+numpy
+sklearn.decomposition
+sklearn.neighbors
+matplotlib.pyplot
+seaborn
