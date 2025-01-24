@@ -170,7 +170,7 @@ else:
     player_position = df.loc[player_idx]['most_frequent_position']
     X_adjusted = adjust_features_for_position(filtered_df, player_position, filtered_X)
 
-    pca = PCA(n_components=35)
+    pca = PCA(n_components=20)
     knn = NearestNeighbors(n_neighbors=6)
 
     X_pca_adjusted = pca.fit_transform(X_adjusted)
